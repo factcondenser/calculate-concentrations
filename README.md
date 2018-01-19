@@ -28,13 +28,13 @@ $ echo $?
 1                             # natsort module does not exist in system
 ```
 
-If necessary, nstall `natsort`:
+If necessary, install `natsort`:
 
 ```sh
 $ pip install natsort
 ```
 
-Run the script with the provided `.tsv` file, `sample.tsv`, or a `.tsv` of your own. Don't forget to specify whether you're making RNA or gDNA:
+Run the script with the provided `.tsv` file - `sample.tsv` - or a `.tsv` of your own. Don't forget to specify whether you're making RNA or gDNA:
 ```sh
 $ python calculate-concentrations.py sample.tsv RNA
 ```
